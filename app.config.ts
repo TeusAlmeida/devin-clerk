@@ -4,22 +4,30 @@ export type Feature = {
 };
 
 export const appConfig = {
-  name: "Your App",
-  description: "Describe your app in one sentence. Devin will fill this in.",
-  emoji: "🚀",
-  accent: "#7c3aed",
+  name: "Incompetência",
+  description: "Recomendar os funcionários mais inúteis de uma empresa",
+  emoji: "🦥",
+  accent: "#ea580c",
   upcomingFeatures: [
     {
-      title: "Your first feature",
-      description: "What people will be able to do once it's built.",
+      title: "Cadastro de funcionários",
+      description: "Adicione colegas com nome, cargo e equipe.",
     },
     {
-      title: "Your second feature",
-      description: "Devin will write this list based on your app idea.",
+      title: "Ranking de inutilidade",
+      description: "Veja a lista de funcionários ordenada pela pontuação de inutilidade.",
     },
     {
-      title: "Your third feature",
-      description: "Each one is a good next prompt for Devin.",
+      title: "Votação anônima",
+      description: "Colegas votam anonimamente em quem menos contribui.",
+    },
+    {
+      title: "Relatório de reuniões inúteis",
+      description: "Registre as reuniões que poderiam ter sido um e-mail.",
+    },
+    {
+      title: "Indicação semanal",
+      description: "Receba toda semana a recomendação automática do inútil da semana.",
     },
   ] satisfies Feature[],
 };
